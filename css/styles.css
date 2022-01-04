@@ -389,3 +389,22 @@ h3.menu-item-title {
     width: 100%;
   }
 }
+
+.mycard {
+  display: block;
+  padding: 42px;
+}
+
+.mycardcontent {
+  display: block;
+  margin: auto;
+}
+.mybtn {
+  display: block;
+  padding-left: 0%;
+  margin-top: 9px;
+  margin-left: 0%;
+}
+.mycardtxt {
+  color: black;
+}
