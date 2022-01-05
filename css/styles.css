@@ -394,6 +394,10 @@ h3.menu-item-title {
   display: block;
   padding: 42px;
 }
+#map {
+  width: 350px;
+  height: 350px;
+}
 
 .mycardcontent {
   display: block;
