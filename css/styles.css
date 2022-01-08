@@ -7,7 +7,7 @@ body {
 
 /** HEADER **/
 #header-nav {
-  background-color: darkred;
+  background-color: #ff0000;
   border-radius: 0;
   border: 0;
   width: 100%;
@@ -15,27 +15,38 @@ body {
 }
 
 #logo-img {
-  background: url("images/star-k-logo.png") no-repeat;
+  background: url("images/Icon-4.png") no-repeat;
   width: 143px;
   height: 150px;
-  margin-top: 5px;
-}
-
-.navbar-brand {
-  padding-top: 5px;
-}
-.navbar-brand h1 {
-  /* Restaurant name */
-  position: relative;
-  font-family: "Lora", serif;
-  color: #557c3e;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
   margin-top: 0px;
 }
 
+.navbar-brand {
+  padding-top: 3px;
+}
+.navbar-brand h1 {
+  /* Restaurant name */
+  padding-right: 10px;
+  position: relative;
+  font-family: "Lora", serif;
+  color: #00d6d6;
+  font-size: 3.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #222;
+  margin-top: 0px;
+}
+
+.navbar-brand p{
+  padding-right: 10px;
+  padding-top: 3px;
+  font-size: 5px;
+  font-weight: all;
+}
+
+.navbar-brand p span{
+
+}
 
 /*.navbar-brand a:hover,
 .navbar-brand a:focus {
@@ -55,29 +66,6 @@ body {
   font-size: 1.8em;
 }
 
-#phone {
-  margin-top: 5px;
-}
-#phone a {
-  /* Phone number */
-  text-align: right;
-  padding-bottom: 0;
-}
-#phone div {
-  /* We Deliver */
-  color: #557c3e;
-  text-align: right;
-  padding-right: 15px;
-}
-
-.navbar-header button.navbar-toggle,
-.navbar-header .icon-bar {
-  border: 1px solid #61122f;
-}
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
-}
 /* END HEADER */
 
 .image{
@@ -87,7 +75,6 @@ body {
 
 .on-img{
   position: absolute;
-  background-color: whitesmoke;
   top: 50px;
 }
 
@@ -105,9 +92,10 @@ body {
   position: absolute;
   top: 8px;
   left: 6px;
-
 }
+
 .scroll-left {
+width: 1513px;
  height: 50px;  
  overflow: hidden;
  position: relative;
@@ -140,7 +128,6 @@ body {
  }
 }
 
-
 .mycard {
   display: block;
   padding: 42px;
@@ -149,6 +136,12 @@ body {
 
 .mycard:hover{
   transform: scale(1.02);
+}
+
+.container1{
+  position: absolute;
+  margin: 10px;
+  max-width: 20px;
 }
 
 #map {
@@ -175,21 +168,23 @@ body {
   display: block;
   margin: auto;
 }
+
 .mybtn {
   display: block;
   padding-left: 0%;
   margin-top: 9px;
   margin-left: 0%;
 }
+
 .mycardtxt {
   color: black;
 }
 
 /* FOOTER */
 .panel-footer {
-  position: relative;
+  position: absolute;
   height: fit-content;
-  bottom: 0px;
+  margin-bottom: 0px;
   width: 100%;
   margin-top: 0px;
   padding-top: 10px;
