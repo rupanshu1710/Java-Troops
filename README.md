@@ -3,7 +3,7 @@
 * This Web App first classify the waste material images into 9 different classes and give a brief description about waste material to spread awareness, also it will give real time location of waste material that we can share with concern authorities.
 
 ## Problem Statement
-* The problem is simply Waste Management, The world generates millions of tons of waste daily and which is increasing day by day and it is hard to manage this huge amount of waste, that's why we need to be aware of waste. So, by first classifying it into its respective class and after that sharing its location with concerned authorities like municipalities, we can solve this. problem.
+* The problem is simply Waste Management, The world generates millions of tons of waste daily and which is increasing day by day and it is hard to manage this huge amount of waste, that's why we need to be aware of waste. So, by first classifying it into its respective class and after that sharing its location with concerned authorities like municipalities, we can solve this problem.
 
 ## Overview
 * Batteries, Blubs, Clothes, E-Waste, Glass, Metal, Organic, Paper, Plastic are 9 different classes of waste materials.
