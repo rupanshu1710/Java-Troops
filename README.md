@@ -10,7 +10,7 @@
 * Here we have 7565 images belonging 9 classes.
 * We have trained model using VGG19 Transfer Learning technique for multi class image classification, model trained with 30 epochs and we got 89.84% accuracy.
 
-## Datset
+## Dataset
 [Click here to get dataset](https://drive.google.com/drive/folders/1lapZMDiXVqU9mvFSqSF4-pXJeT8Vzz8-)
 ## Demo
 [Video Link](https://youtu.be/deB3yAe3J68)
